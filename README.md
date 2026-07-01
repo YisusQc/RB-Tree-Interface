@@ -7,7 +7,7 @@ Este programa permite visualizar el funcionamiento básico de un Árbol Rojinegr
 - **Lenguaje:** C, cualquier estándar (c89, c99, c11, c17 o c23) funciona para este proyecto.
 - **Gráficos**: OpenGL.
 - **Correcciones:** Se implementa una corrección de la primera línea en la función `RB-Insert-Fixup` del libro en mención, asegurando así un buen funcionamiento tanto de la estructura del árbol como del programa.
-- **Multiplataforma:** Para ello, se requiere diferente uso de las `.dll` en el archivo Makefile:
+- **Multiplataforma:** Para ello, se requiere vincular las `.dll` correspondientes en el archivo Makefile:
     - Para Windows `-lfreeglut -lopengl32 -lglu32 -lm`
     - Para Linux `-lGL -lGLU -lglut -lm`
 - **Gestión de memoria:** uso de punteros y métodos nativos del lenguaje.
