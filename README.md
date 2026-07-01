@@ -58,8 +58,6 @@ Esto generá los archivos necesarios además del ejecutable principal `main`.
       // En CMD
       main < datafile
 
-  También se puede ejecutar sin archivo auxiliar, con `./main` e ingresar manualmente los datos uno por uno por la entrada estándar.
-
 ## Contribuciones
 
   ¡Contribuciones son bienvenidas! Si tienes ideas para mejorar este proyecto, por favor, abre un issue o una pull request.
